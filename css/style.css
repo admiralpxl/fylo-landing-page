@@ -1,0 +1,61 @@
+/*
+1-Position
+2-Box Model
+3-Typography
+4-Visuals
+5-Others
+*/
+:root{
+    --intro-color:hsl(217, 28%, 15%);
+    --main-color:hsl(218, 28%, 13%);
+    --footer-color:hsl(216, 53%, 9%);
+    --testimonials-color:hsl(219, 30%, 18%);
+    --buttom-inactive:hsl(198, 60%, 50%);
+    --buttom-active:hsl(176, 68%, 64%);
+    --error-message:hsl(0, 100%, 63%);
+    --white-neutral:hsl(0, 0%, 100%);
+    --blu-link:hsl(228, 45%, 44%);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: var(--intro-color);
+    align-items: center;
+}
+.header .header-logo{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+}
+.header .header-list{
+    list-style: none;
+    text-decoration: none;
+    justify-self: end;
+    margin-right: 10px;
+    
+}
+.header .header-list li{
+    display: inline;
+    font-size: 1.6rem;
+    margin-left: 5px;
+    
+}
+.header .header-list a{
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: var(--white-neutral);
+}
+
