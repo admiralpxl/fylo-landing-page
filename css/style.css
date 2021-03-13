@@ -58,4 +58,73 @@ html{
     font-family: 'Raleway', sans-serif;
     color: var(--white-neutral);
 }
+.main{
+    width: 100%;
+    height: auto;
+    background-color: var(--main-color);
+}
+.main .main-intro{
+    width: 100%;
+    background-color: var(--intro-color);
+}
+.main .main-intro .illus img{
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+    
+}
+.main .main-intro .back{
+    width: 100%;
+    height: 160px;
+    background-image: url("/images/bg-curvy-mobile.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin-top: -30px;
+    display: grid;
+    grid-template: repeat(10, 1fr) / repeat(8, 1fr);
+    height: 400px;
+}
+.main .main-intro .back h1{
+    grid-column: 2 / 8;
+    grid-row: 3 / 4;
+    font-size: 2.2rem;
+    text-align: center;
+    color: white;
+    line-height: 3rem;
+    max-width: 300px;
+    justify-self: center;
+}
+.main .main-intro .back p{
+    grid-column: 2 / 8;
+    grid-row: 5 / 7;
+    color: white;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    text-align: center;
+    max-width: 300px;
+    justify-self: center;
+}
+.main .main-intro .back div{
+    grid-column: 3 / 7;
+    grid-row: 9 / 9;
+    width: 200px;
+    height: 40px;
+    justify-self:center;
+    border-radius: 20px;
+    background-color:var(--buttom-inactive);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .main-intro .back div button{
+    color: var(--white-neutral);
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    border:none;
+    background-color:var(--buttom-inactive);
+    color: var(--white-neutral);
+    max-width: 250px;
+}
 
