@@ -33,6 +33,9 @@ html{
     grid-template-columns: 40% 60%;
     background-color: var(--intro-color);
     align-items: center;
+    box-shadow: 0 4px 8px black;
+    position: absolute;
+    
 }
 .header .header-logo{
     width: 100px;
@@ -48,13 +51,13 @@ html{
 }
 .header .header-list li{
     display: inline;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-left: 5px;
     
 }
 .header .header-list a{
     text-decoration: none;
-    font-weight: 400;
+    font-weight: bold;
     font-family: 'Raleway', sans-serif;
     color: var(--white-neutral);
 }
@@ -67,11 +70,15 @@ html{
     width: 100%;
     background-color: var(--intro-color);
 }
+.main .main-intro .illus{
+    display: flex;
+    justify-content: center;
+}
 .main .main-intro .illus img{
     width: 100%;
-    margin-top: 30px;
+    max-width: 500px;
+    margin-top: 130px;
     position: relative;
-    
 }
 .main .main-intro .back{
     width: 100%;
@@ -86,23 +93,24 @@ html{
     height: 400px;
 }
 .main .main-intro .back h1{
-    grid-column: 2 / 8;
+    grid-column: 1 / 9;
     grid-row: 3 / 4;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     text-align: center;
     color: white;
     line-height: 3rem;
-    max-width: 300px;
+    max-width: 350px;
     justify-self: center;
 }
 .main .main-intro .back p{
-    grid-column: 2 / 8;
+    grid-column: 1 / 9;
     grid-row: 5 / 7;
     color: white;
     font-size: 1.4rem;
+    font-weight: 500;
     line-height: 2.3rem;
     text-align: center;
-    max-width: 300px;
+    max-width: 350px;
     justify-self: center;
 }
 .main .main-intro .back div{
@@ -126,5 +134,49 @@ html{
     background-color:var(--buttom-inactive);
     color: var(--white-neutral);
     max-width: 250px;
+    width: 190px;
+    height: 25px;
 }
+.main .main-intro .back div button:hover{
+    background-color: var(--buttom-active);
+}
+.main .main-intro .back div:hover{
+    background-color: var(--buttom-active);
+}
+.main .main-services{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    color: var(--white-neutral);
+    max-width: 300px;
+    margin-top: 50px;
+}
+.main .main-services .services-info-container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 90px 40px 120px;
+    height: auto;
+}
+.main .main-services .services-info-container img{
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+    justify-self: center;
+}
+.main-services .services-info-container h2{
+    grid-column: 1 / 4;
+    grid-row: 2 / 2;
+    text-align: center;
+    align-self: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.main-services .services-info-container p{
+    grid-column: 1 / 4;
+    grid-row: 3 / 3;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.3rem;
+} 
 
