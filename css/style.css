@@ -179,4 +179,53 @@ html{
     font-weight: 500;
     line-height: 2.3rem;
 } 
+.main .main-bene{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    justify-content: center;
+    color: var(--white-neutral);
+}
+.main .main-bene img{
+    min-width: 300px;
+    max-width: 500px;
+    margin-top: 50px;
+}
+.main .main-bene .main-bene-info{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 40px 80px 80px 10px;
+    margin-top: 20px;
+    margin-bottom:30px;
+}
+.main .main-bene .main-bene-info h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+}
+.main .main-bene .main-bene-info p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.1rem;
+}
+.main .main-bene .main-bene-info a{
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: var(--buttom-inactive);
+}
+.main .main-bene .main-bene-info a span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    background-image: url("/images/icon-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: center;
+    background-size: contain;
+    vertical-align: text-bottom;
+}
+
+
 
