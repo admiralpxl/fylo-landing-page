@@ -192,6 +192,8 @@ html{
     min-width: 300px;
     max-width: 500px;
     margin-top: 50px;
+    min-height: 200px;
+    max-height: 300px;
 }
 .main .main-bene .main-bene-info{
     display: grid;
@@ -226,6 +228,40 @@ html{
     background-size: contain;
     vertical-align: text-bottom;
 }
+.main .main-testimonials{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.main .main-testimonials .main-testimonials-info{
+    width: 290px;
+    height: 150px;
+    background-color: var(--testimonials-color);
+    display: grid;
+    grid-template: repeat(6, 1fr) / repeat(2, 1fr);
+    border-radius: 10px;
+}
+.main .main-testimonials .main-testimonials-info p{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    line-height: 1.9rem;
+    color: var(--white-neutral);
+    display: flex;
+    justify-self: center;
+    grid-column: 1 / 7;
+}
+.main .main-testimonials .main-testimonials-info img{
+
+}
+.main .main-testimonials .main-testimonials-info h3{
+
+}
+.main .main-testimonials .main-testimonials-info .parrafo{
+
+}
+
 
 
 
