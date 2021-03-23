@@ -150,7 +150,7 @@ html{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 autos;
+    margin: 0 auto;
     color: var(--white-neutral);
     margin-top: 50px;
 }
@@ -392,6 +392,10 @@ html{
 .footer .footer-1 ul li img{
     margin-right: 10px;
     vertical-align: text-bottom;
+}
+.footer .ulgeneral a{
+    text-decoration: none;
+    color: var(--white-neutral);
 }
 .footer .footer-2{
     display: flex;
